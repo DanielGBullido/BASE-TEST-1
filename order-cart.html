@@ -1,0 +1,109 @@
+<script src="https://js.stripe.com/v3/"></script>
+<div class="base-18-items color-black text-left"><a id="close-sidecart" href="#"><b>x</b></a></div>
+<div class="text-center color-black base-16 pb-1">ORDER SUMMARY<br></div>
+<div class="black-line mb-1 mt-2"></div>
+
+
+<div class="row pt-3">
+    <div class="col-9">
+        <div class="row">
+            <div class="col-3"> <img class="image--sm" src="img/MOCKUPBASE.png"></div>
+            <div class="col-9">
+                <span id="base-insights" class="base-15 color-black">TEST KIT</span><br>
+                <span id="option-selected" class="base-14 pl-2">Stress</span><br>
+                <img class="pr-1" src="img/recurring.svg"><span id="period-plan" class="base-14 pl-2">3 months</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-3"><span id="starter-test-price" class="base-18-items">$55.00</span></div>
+</div>
+<div class="black-line mb-2 mt-2"></div>
+<div class="row">
+    <div class="col-9">
+        <div class="row">
+            <div class="col-3"> <img class="image--sm" src="img/energy_membership.png"></div>
+            <div class="col-9">
+                <span id="base-membership" class="base-15 color-black">DIGITAL MEMBERSHIP</span><br>
+                <span id="billed-monthly" class="base-16 pl-2">$4.95/mo</span><br>
+                <a href="#"> <span id="included" class="base-14 pl-2 pb-1">What's included?<img class="pl-2 image--xxxs" src="img/arrow_dropdown.svg"></span></a>
+                <span id="included-expand" style="display: none;" class="base-14-body">
+                    <ul class="pl-4 base-bullets-dashes">
+                        <li>
+                            Nutritional/lifestyle plans based on results
+                        </li>
+                        <li>
+                            Personalized biomarker test plan tailored to your goals
+                        </li>
+                        <li>
+                            Your results, straight to your phone & easy to understand
+                        </li>
+                        <li>
+                            Your digital BaseCoach. Track your progress with challenges
+                        </li>
+
+                    </ul>
+                </span> 
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-3"><span id="membership-price" class="base-18-items">$4.95</span></div>
+</div>
+<div class="added-tests-block" style="display: none;">
+    <div class="black-line mb-2 mt-2"></div>
+    <div class="row pt-3">
+        <div class="col-9">
+            <div class="row">
+                <div class="col-3"> <img class="image--sm" src="img/MOCKUPBASE.png"></div>
+                <div class="col-9">
+                    <span id="base-insights" class="base-15 color-black">ADDED TEST</span><br>
+            <span id="added-tests-name" class="base-14 pl-2">Stress</span><br>
+                <a href="#"> <span id="remove-added" class="base-14 pl-2 pb-1">Remove</span></a>
+            </div>
+            </div>
+
+        </div>
+
+        <div class="col-3"><span id="added-tests-price" class="base-18-items">$55.00</span></div>
+    </div>
+</div>
+
+<div class="black-line mt-2 mb-3"></div>
+
+<div class="spinner-grow" style="display: none;" role="status" id="codeSpinner">
+    <span class="sr-only">Loading...</span>
+</div>
+
+<div class="row pt-2">
+    <div class="col-9"><span class="base-14">Subtotal</span></div>
+    <div class="col-3"><span id="subtotal" class="base-14">-</span></div>
+</div>
+<div class="row pt-2">
+    <div class="col-9"><span class="base-14">Shipping</span></div>
+    <div class="col-3"><span class="base-14">Free</span></div>
+</div>
+<div class="row pt-3 pb-4">
+    <div class="col-9"><span class="base-18-items"><b>Total</b></span></div>
+    <div class="col-3"><span id="total"  class="base-18-items"><b>-</b></span></div>
+</div>
+<div class="row pt-0 pt-md-3">
+    <div class="ml-3 mr-3 mb-3 color--white base-24-body black-button-sm text-center" style="width: 92%;"><a href="checkout-payment">Checkout <img class="pl-2" src="img/base_arrow_white.svg"></a></div>
+</div>
+<div class="pay-now-cart">
+    <div id="payment-request-button" style="max-height: 90px;">
+        <!-- A Stripe Element will be inserted here. -->
+    </div>
+</div>
+<div class="card-errors"></div>
+<script>
+    $("#close-sidecart").click(function(e) {
+        e.preventDefault();
+
+        $(".sidebar").hide();
+    });
+</script>
+<script src="js/plan-now.js?v=5"></script>
+<script src="js/cart.js?v=50"></script>

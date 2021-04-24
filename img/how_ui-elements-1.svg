@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="211px" height="288px" viewBox="0 0 211 288" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>how_ui-elements-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-22.8%" y="-15.7%" width="145.6%" height="131.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.552941176   0 0 0 0 0.48627451   0 0 0 0 0.474509804  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Crystal_how-it-works" transform="translate(-109.000000, -582.000000)">
+            <g id="1" transform="translate(6.000000, 393.000000)">
+                <g id="how_ui-elements-1" filter="url(#filter-1)" transform="translate(123.000000, 209.000000)">
+                    <g id="icon">
+                        <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="130" height="130" rx="10"></rect>
+                        <g id="wellness-icons_metabolic-weight" transform="translate(17.000000, 32.000000)" fill-rule="nonzero">
+                            <circle id="Oval" fill="#A0A894" cx="48" cy="24" r="5.18918919"></circle>
+                            <path d="M48,0 C34.7675676,0 24,10.7675676 24,24 C24,37.2324324 34.7675676,48 48,48 C61.2324324,48 72,37.2324324 72,24 C72,10.7675676 61.2324324,0 48,0 Z M48,45.0810811 C42.8108108,45.0810811 38.4,35.4162162 38.4,24 C38.4,12.5837838 42.8108108,2.91891892 48,2.91891892 C53.1891892,2.91891892 57.6,12.5837838 57.6,24 C57.6,35.4162162 53.1891892,45.0810811 48,45.0810811 Z M44.172973,2.98378378 C40.0216216,6.0972973 37.1027027,14.2702703 37.1027027,24 C37.1027027,33.7297297 40.0216216,41.9027027 44.172973,45.0162162 C37.1027027,42.6810811 31.8486486,34.1837838 31.8486486,24 C31.8486486,13.8162162 37.1027027,5.31891892 44.172973,2.98378378 Z M51.827027,45.0162162 C55.9783784,41.9027027 58.8972973,33.7297297 58.8972973,24 C58.8972973,14.2702703 55.9783784,6.0972973 51.827027,2.98378378 C58.8972973,5.31891892 64.1513514,13.8162162 64.1513514,24 C64.1513514,34.1837838 58.8972973,42.6810811 51.827027,45.0162162 Z M26.5945946,24 C26.5945946,15.6972973 31.3297297,8.4972973 38.2702703,4.92972973 C33.6,9.08108108 30.5513514,16.0864865 30.5513514,24 C30.5513514,31.9135135 33.6,38.9189189 38.2702703,43.0702703 C31.3297297,39.5027027 26.5945946,32.3027027 26.5945946,24 Z M57.7297297,43.0702703 C62.4,38.9189189 65.4486486,31.9783784 65.4486486,24 C65.4486486,16.0216216 62.4,9.08108108 57.7297297,4.92972973 C64.6702703,8.4972973 69.4054054,15.6972973 69.4054054,24 C69.4054054,32.3027027 64.6702703,39.5027027 57.7297297,43.0702703 Z" id="Shape" fill="#8D7C79"></path>
+                            <polygon id="Path" fill="#D8AD8F" points="82.4432432 29.5135135 82.4432432 18.4864865 75.6972973 24"></polygon>
+                            <polygon id="Path" fill="#D8AD8F" points="95.7405405 31.9783784 95.7405405 16.0216216 85.8810811 24"></polygon>
+                            <polygon id="Path" fill="#D8AD8F" points="13.5567568 18.4864865 13.5567568 29.5135135 20.3027027 24"></polygon>
+                            <polygon id="Path" fill="#D8AD8F" points="0.259459459 16.0216216 0.259459459 31.9783784 10.1189189 24"></polygon>
+                        </g>
+                        <text id="Metabolic-Weight" font-family="DMSans-Bold, DM Sans" font-size="12" font-weight="bold" fill="#5E5554">
+                            <tspan x="14.928" y="105">Baseline Sugar Lipids</tspan>
+                        </text>
+                    </g>
+                    <g id="markers" transform="translate(0.000000, 150.000000)">
+                        <g id="vitamin">
+                            <rect id="Rectangle" fill="#E1AF8C" x="0" y="0" width="40" height="26"></rect>
+                            <text id="LDL" font-family="SpaceMono-Bold, Space Mono" font-size="12" font-weight="bold" line-spacing="12" letter-spacing="0.2" fill="#5E5554">
+                                <tspan x="9" y="19">LDL</tspan>
+                            </text>
+                        </g>
+                        <g id="vitamin" transform="translate(0.000000, 36.000000)">
+                            <rect id="Rectangle" fill="#E1AF8C" x="0" y="0" width="40" height="26"></rect>
+                            <text id="HDL" font-family="SpaceMono-Bold, Space Mono" font-size="12" font-weight="bold" line-spacing="12" letter-spacing="0.2" fill="#5E5554">
+                                <tspan x="9" y="19">HDL</tspan>
+                            </text>
+                        </g>
+                        <g id="vitamin" transform="translate(125.000000, 72.000000)">
+                            <rect id="Rectangle" fill="#E1AF8C" x="0" y="0" width="46" height="26"></rect>
+                            <text id="VLDL" font-family="SpaceMono-Bold, Space Mono" font-size="12" font-weight="bold" line-spacing="12" letter-spacing="0.2" fill="#5E5554">
+                                <tspan x="9" y="19">VLDL</tspan>
+                            </text>
+                        </g>
+                        <g id="vitamin" transform="translate(0.000000, 72.000000)">
+                            <rect id="Rectangle" fill="#E1AF8C" x="0" y="0" width="115" height="26"></rect>
+                            <text id="Triglycerides" font-family="SpaceMono-Bold, Space Mono" font-size="12" font-weight="bold" line-spacing="12" letter-spacing="0.2" fill="#5E5554">
+                                <tspan x="9" y="19">Triglycerides</tspan>
+                            </text>
+                        </g>
+                        <g id="vitamin" transform="translate(50.000000, 36.000000)">
+                            <rect id="Rectangle" fill="#E1AF8C" x="0" y="0" width="100" height="26"></rect>
+                            <text id="Cholesterol" font-family="SpaceMono-Bold, Space Mono" font-size="12" font-weight="bold" line-spacing="12" letter-spacing="0.2" fill="#5E5554">
+                                <tspan x="9" y="19">Cholesterol</tspan>
+                            </text>
+                        </g>
+                        <g id="vitamin" transform="translate(50.000000, 0.000000)">
+                            <rect id="Rectangle" fill="#E1AF8C" x="0" y="0" width="70" height="26"></rect>
+                            <text id="Glucose" font-family="SpaceMono-Bold, Space Mono" font-size="12" font-weight="bold" line-spacing="12" letter-spacing="0.2" fill="#5E5554">
+                                <tspan x="9" y="19">Glucose</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

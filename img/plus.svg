@@ -1,0 +1,5 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M39 1H1V39H39V1ZM1 0H0V1V39V40H1H39H40V39V1V0H39H1Z" fill="white"/>
+<line x1="9" y1="19.5" x2="31" y2="19.5" stroke="white"/>
+<line x1="19.5" y1="31" x2="19.5" y2="9" stroke="white"/>
+</svg>

@@ -1,0 +1,910 @@
+
+//main style
+
+.height-100percent
+    height: 100%
+
+.p-10
+    padding: 10px
+
+.pt20
+    padding-top: 20px
+.pb20
+    padding-bottom: 20px
+
+.mb10
+    margin-bottom: 10px
+.mb40
+    margin-bottom: 40px
+.mb110
+    margin-bottom: 110px
+.mt10
+    margin-top: 10px
+.mt20
+    margin-top: 20px
+.ml20
+    margin-left: 20px
+.ml60
+    margin-left: 60px
+.mt70
+    margin-top: 70px
+.mt150
+    margin-top: 150px
+
+.border-top-line-black
+    border-top: 1px solid #000
+
+.border-left-line-black
+    border-left: 1px solid #000
+
+.border-line-black
+    border: 1px solid #000
+
+
+.cursor-pointer
+    cursor: pointer
+
+.font-size-10
+    font-size: 10px
+.font-size-12
+    font-size: 12px
+.font-size-19
+    font-size: 19px
+.font-size-32
+    font-size: 32px
+.base-28
+    font-family: 'Swis721Greek BT'
+    font-weight: 400
+    font-size: 28px
+    line-height: 160%
+.base-200
+    font-family: 'Swis721Greek BT'
+    font-weight: 400
+    font-size: 200px
+    line-height: 110%
+
+.line-height120
+    line-height: 120%
+
+.button
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    &.color-black
+        &:hover
+            color: #000
+    &.color-white
+        color: #fff
+        &:hover
+            color: #fff
+    &.height-40
+        height: 40px
+        padding: 0
+    &.height-50
+        height: 50px
+        padding: 0
+    &.change-icon-hover
+        .icon-hide
+            display: none
+        &:hover
+            .icon-hide
+                display: block
+                transition: opacity 1s ease-out
+                opacity: 1
+            .icon-show
+                display: none
+                transition: opacity 1s ease-out
+                opacity: 0
+    &.white-to-black
+        background-color: #ffffff
+        color: #000000
+        transition: all .5s
+        &:hover
+            transition: all .5s
+            background-color: #000000
+            color: #ffffff
+    &.black-to-white
+        background-color: #000000
+        color: #ffffff
+        transition: all .5s
+        &:hover
+            background-color: #ffffff
+            color: #000000
+            transition: all .5s
+
+.button-underline
+    position: relative
+    &::after
+        content: ''
+        position: absolute
+        bottom: 0px
+        left: 0
+        width: 100%
+        height: 1px
+        background-color: #000
+
+//end of main style
+
+//Base Directory block
+
+.bd-block
+    padding-top: 140px!important
+    padding-bottom: 120px
+.accordion-block
+    .accordion-card
+        &:first-of-type
+            .head
+                border-top: 1px solid #000000
+        .line
+            width: 100%
+            height: 1px
+            background-color: #000
+    .head
+        padding-right: 40px
+        cursor: pointer
+        &.collapsed
+            .toggle-button
+                .line
+                    &.vertical-collapse
+                        transform: rotate(90deg)
+        .left-side
+            min-width: 260px
+        .icon-circle
+            width: 45px
+            height: 45px
+            min-width: 45px
+            min-height: 45px
+            margin-right: 25px
+        .desc
+            max-width: 320px
+        .toggle-button
+            position: relative
+            height: 40px
+            width: 40px
+            min-width: 40px
+            min-height: 40px
+            margin-left: 40px
+            .line
+                position: absolute
+                display: block
+                width: 100%
+                height: 2px
+                background-color: #000000
+                &.vertical-collapse
+                    transition: all .5s
+                    transform: rotate(0)
+
+
+.gradient-block
+    background-image: url(../img/gradient-bg-block.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+
+.carousel-block
+    .item
+        .context-wrapper
+            padding-bottom: 25px
+            .snippet
+                padding: 0px 10px
+
+.block-brands
+    .block-brands-title
+        margin-bottom: 115px
+.brand-list
+    align-items: stretch
+    margin-left: -20px!important
+    margin-right: -20px!important
+    .list-item
+        display: flex
+        align-items: flex-start
+        padding: 0 25px 90px
+
+.button-plus
+    display: inline-flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    padding: 4px 10px 4px 10px
+    transition: all .5s
+    &.black-to-white
+        background-color: #000000
+        transition: all .5s
+        .text
+            color: #ffffff
+        .icon
+            &.plus
+                .line
+                    background-color: #ffffff
+        &:hover
+            .text
+                color: #000000
+            .icon
+                &.plus
+                    .line
+                        background-color: #000000
+    &:hover
+        transition: all .5s
+        background-color: #000000
+        .text
+            transition: all .5s
+            color: #ffffff
+        .icon
+            &.plus
+                .line
+                    transition: all .5s
+                    background-color: #ffffff
+    .icon
+        position: relative
+        display: flex
+        width: 16px
+        height: 16px
+        margin-right: 10px
+        &.plus
+            .line
+                position: absolute
+                top: 8px
+                width: 100%
+                height: .8px
+                background-color: #000000
+                transition: all .5s
+                &.vertical
+                    transform: rotate(90deg)
+    .text
+        transition: all .5s
+
+.buttons-control-carousel-block
+    bottom: 0
+//End of Base Directory block
+
+//how it work block
+
+.higher-gradient-block
+    background-image: url('../img/higher-gradient-block-bg.png')
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    .two-step-title
+        margin-top: 150px
+.line-steps
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    padding-bottom: 105px
+    .step-item
+        padding: 0 20px
+        .content-wrapper
+            position: relative
+        .rounded-circle
+            width: 47px
+            height: 47px
+        .content-item
+            position: absolute
+            top: 96px
+            min-width: 200px
+            left: calc(50% - 100px)
+
+    .step-line
+        width: 100%
+        height: 1px
+
+
+.nav-tabs
+    &.plans
+        .nav-item
+            padding: 28px 0 25px 48px
+            border: 1px solid #000
+            border-radius: 0
+            &.active
+                border-bottom: 1px solid #fff
+                transition: all .15s
+            &:last-of-type
+                border-left: 0px solid #000
+            .block-text
+                line-height: .8
+
+.tab-content
+    .tab-pane
+        transition: all .10s
+        &.active
+            transition: all .10s
+    &.plans
+        .content
+            padding: 35px 50px 30px 50px
+            .p-description
+                max-width: 350px
+                line-height: 32px
+        .left-content
+
+        .right-content
+            flex-direction: row
+            justify-content: space-evenly
+        .revers-indent
+            margin-top: -25px
+    .white-button
+        &:hover
+            color: #fff
+.list-circle-items
+    padding-left: 35px
+    .l-circle-item
+        position: relative
+        margin-bottom: 25px
+        &::before
+            content: ''
+            position: absolute
+            width: 14px
+            height: 14px
+            border-radius: 50%
+            top: 5px
+            left: -35px
+            border: 1px solid #000000
+        &:last-child
+            margin-bottom: 0
+
+
+
+//end of how it work block
+
+.mini-snippet
+    position: relative
+    &::before
+        content: ''
+        position: absolute
+        top: -60px
+        background-image: url("../img/drop-img-mini-snippet.png")
+        background-repeat: no-repeat
+        background-position: left top
+        width: 65px
+        height: 147px
+
+    .snippet-body
+        padding: 35px 35px 30px
+
+//modals windows
+
+.modal
+    //display: block
+    &.test-open
+        display: block
+        opacity: 1
+        .modal-dialog
+            margin-top: 150px
+    &.width-500
+        .modal-dialog
+            max-width: 500px
+    &.base-modal
+        .modal-content
+            border-radius: 0
+            position: relative
+            background-size: cover
+            .close
+                position: absolute
+                top: -22px
+                right: -22px
+                z-index: 2000
+                width: 44px
+                height: 44px
+                border-radius: 50%
+                border: 1px solid #000
+                background-color: #fff
+                opacity: 1
+    &.checkout-modal
+        .modal-dialog
+            max-width: 775px
+            margin: .5rem auto
+        .modal-content
+            border-radius: 0
+        .modal-body
+            padding: 0
+            .top-block
+                position: relative
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                padding: 35px 40px 40px 45px
+                opacity: 1!important
+                background-repeat: no-repeat
+                background-position: center
+                background-size: cover
+                &.sleep-bg
+                    background-image: url("../img/checkout-modal-sleep-bg.png")
+                    .right-content-block
+                        padding-right: 90px
+                &.stress-bg
+                    background-image: url("../img/checkout-modal-stress-bg.png")
+                    .right-content-block
+                        padding-right: 50px
+                &.energy-bg
+                    background-image: url("../img/checkout-modal-energy-bg.png")
+                    .right-content-block
+                        padding-right: 90px
+                &.diet-bg
+                    background-image: url("../img/checkout-modal-diet-bg.png")
+                    .right-content-block
+                        padding-right: 90px
+                &.sex-drive-bg
+                    background-image: url("../img/checkout-modal-sex-drive-bg.png")
+                    .right-content-block
+                        padding-right: 100px
+                .left-content-block
+                    width: 100%
+                    max-width: 400px
+                    .head-block
+                        .icon
+                            margin-right: 8px
+                //.subtitle
+                    //padding: 5px 6px 4px
+                .title
+                    margin-top: 15px
+                    margin-bottom: 15px
+                    font-size: 82px
+                    line-height: 94px
+                .description
+                    margin-bottom: 0
+                .right-content-block
+                    top: 0
+                    right: 0
+                    height: 100%
+                    position: absolute
+                    display: flex
+                    flex-direction: column
+                    justify-content: center
+                    align-items: flex-end
+                    padding-top: 60px
+                    padding-bottom: 60px
+                    img
+                        height: 100%
+            .bottom-block
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                padding: 40px 40px 40px 45px
+                .right-content-block
+                    display: flex
+                    flex-direction: column
+                    align-items: flex-end
+                    justify-content: space-between
+                    width: 100%
+                    max-width: 340px
+                    .button-wrapper
+                        width: 100%
+                        .button
+                            &:first-of-type
+                                margin-bottom: 12px
+                .head-block
+                    display: flex
+                    flex-direction: row
+                    justify-content: space-between
+                .title-head-block
+                    margin-top: 3px
+                    margin-bottom: 0
+                .price-block
+                    display: flex
+                    flex-direction: row
+                    align-items: center
+                    span
+                        line-height: 40px
+                    .old-price
+                        text-decoration: line-through
+                        color: #E5E5E5
+                        margin-right: 10px
+    &.narrow-modal
+        background: rgba(65, 65, 65, 0.6)
+        .modal-body
+            //padding: 35px
+            //.old-price
+            //    opacity: .3
+            //    text-decoration: line-through
+            //    margin-left: 8px
+        .modal-content
+            position: relative
+            background-size: cover
+            .close
+                position: absolute
+                top: -22px
+                right: -22px
+                z-index: 2000
+                width: 44px
+                height: 44px
+                border-radius: 50%
+                border: 1px solid #000
+                background-color: #fff
+                opacity: 1
+            .title-modal
+                line-height: 32px
+            .modal-list
+                li:first-of-type
+                    margin-top: 40px
+                li
+                    position: relative
+                    padding-left: 30px
+                    margin-bottom: 5px
+                    &:last-of-type
+                        margin-bottom: 0
+                    &::before
+                        content: ''
+                        position: absolute
+                        background-image: url('../img/mini-checkmark-icon.svg')
+                        background-repeat: no-repeat
+                        background-position: center
+                        background-size: cover
+                        top: 6px
+                        left: 0
+                        width: 17px
+                        height: 17px
+            .button-wrapper
+                .button
+                    &:first-of-type
+                        margin-right: 15px
+        &.added-to-cart
+            .modal-dialog
+                max-width: 394px
+                margin: .5rem auto
+                .modal-body
+                    padding: 0
+                    .top-block
+                        padding: 0
+            .checkout-card-wrapper
+                margin: 0
+                padding: 0
+                .added-to-cart
+                    display: flex
+                    flex-direction: column
+                    top: 0
+                    position: relative
+                    padding: 30px 25px 25px
+                    .top-block
+                        padding: 0
+                    .item-section
+                        .item
+                            padding: 10px 0 15px 0
+                            .top-block
+                                margin-bottom: 25px
+                    .total-price-block
+                        padding: 10px 0 25px
+                    .buttons-wrapper
+                        margin: 0
+                        flex-direction: column-reverse
+                        .button:last-of-type
+                            margin-bottom: 15px
+                        .button
+                            margin: 0
+    &.product-modal
+        .modal-body
+            padding: 25px 30px 25px
+            .top-block
+                margin-bottom: 90px
+                .left-content-block
+                    max-width: 60%
+            .title-head-block
+                margin-bottom: 5px
+            .button-wrapper
+                .button
+                    padding-right: 50px
+                    padding-left: 50px
+//end modals windows
+
+//checkout improve cards
+
+.modal-list
+    li:first-of-type
+        margin-top: 15px
+    li
+        position: relative
+        padding-left: 22px
+        margin-bottom: 5px
+        &:last-of-type
+            margin-bottom: 0
+        &::before
+            content: ''
+            position: absolute
+            background-image: url('../img/mini-checkmark-icon.svg')
+            background-position: center
+            top: 7px
+            left: 0
+            width: 12px
+            height: 12px
+
+.checkout-card-wrapper
+    position: relative
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    margin-right: -10px
+    margin-left: -10px
+    margin-bottom: 100px
+    .head-block
+        margin-bottom: 35px
+        .icon
+            width: 24px
+            margin-right: 21px
+    .added-to-cart
+        position: absolute
+        top: -250px
+        right: 0
+        min-width: 394px
+        padding: 30px 28px 29px
+        background-color: #ffffff
+        z-index: 1000
+        .item-section
+            margin-bottom: 0
+            .item
+                padding: 10px 10px 20px 0
+                .top-block
+                    margin-bottom: 15px
+                .description
+                    color: #A9A9A9
+        .total-price-block
+            padding: 10px 10px 20px 0
+            margin-bottom: 10px
+        .buttons-wrapper
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+            margin-right: -5px
+            margin-left: -5px
+            .button
+                margin: 0 5px
+    .checkout-card
+        flex: 0 0 20%
+        max-width: 20%
+        width: 230px
+        padding: 0 10px
+        margin-bottom: 20px
+        //&:first-of-type
+        //    .card-item
+        //        opacity: .2
+        &:hover
+            .card-item
+                .top-block
+                    .bg
+                        transition: all .8s
+                        -ms-transform: translate(-20px, -20px)
+                        -moz-transform: translate(-20px, -20px)
+                        -webkit-transform: translate(-20px, -20px)
+                        -o-transform: translate(-20px, -20px)
+                        transform: translate(-20px, -20px)
+        .card-item
+            display: flex
+            flex-direction: column
+            flex-basis: 100%
+            height: 100%
+            border: 1px solid #000000
+            &.active
+                transition: all .5s
+                opacity: 1
+            &.inactive
+                transition: all .5s
+                opacity: .2
+            .top-block
+                position: relative
+                //padding: 15px 20px
+                min-height: 170px
+                overflow: hidden
+                .context
+                    position: absolute
+                    padding: 15px 20px
+                    top: 0
+                    left: 0
+                    width: 100%
+                    height: 100%
+                    .title
+                        margin-bottom: 0
+                .bg
+                    transition: all .8s
+                    width: 130%
+                    height: 130%
+                    top: 0
+                    left: 0
+                    overflow: hidden
+                    background-position: center
+                    background-repeat: no-repeat
+                    background-size: cover
+                    &.sleep
+                        background-image: url("../img/checkout-card-sleep-bg.png")
+                    &.stress
+                        background-image: url('../img/checkout-card-stress-bg.jpg')
+                    &.energy
+                        background-image: url('../img/checkout-card-energy-bg.jpg')
+                    &.diet
+                        background-image: url('../img/checkout-card-diet-bg.jpg')
+                    &.sex-drive
+                        background-image: url('../img/checkout-card-sex-drive-bg.png')
+            .bottom-block
+                padding: 20px 10px 20px 20px
+                display: flex
+                flex-direction: column
+                align-items: flex-start
+                justify-content: space-between
+                height: 100%
+                .title
+                    margin-bottom: 8px
+                .description
+                    line-height: 20px
+
+
+
+.screen-panel
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    .top-block
+        width: 100%
+        max-width: 440px
+        display: none
+        flex-direction: column
+        align-items: flex-start
+        &.active
+            display: flex
+    .price-wrapper
+        flex-direction: row
+        margin-left: 50px
+        .price
+            opacity: 1
+            letter-spacing: -.1rem
+            margin-right: 14px
+        .price-text
+            display: flex
+            align-items: center
+            width: 100%
+            max-width: 150px
+            font-family: 'Swis721Greek BT'
+            line-height: 13px
+            font-weight: 400
+            font-size: 12px
+    .bottom-block
+        .subline-bottom
+            margin-bottom: 60px
+            .subline-title
+                margin-bottom: 15px
+        .modal-list
+            li:first-of-type
+                margin-top: 0
+.screen-panel-img-wrapper
+    position: relative
+    img
+        width: 100%
+        height: 100%
+        object-fit: cover
+    .snippet-price-screen
+        background-color: #ffffff
+        top: 20px
+        right: 20px
+        position: absolute
+        min-width: 160px
+        .top-line
+            padding: 9px 8px 9px
+        .title
+            line-height: 30px
+        .bottom-line
+            padding: 9px 8px 9px
+            .icon
+                width: 12px
+                margin-left: 5px
+.how-its-work-checkout
+    margin-top: 80px
+    .border-line-black
+        padding: 25px 30px 30px
+    .title,
+    .description
+        line-height: 36px
+    .description
+        margin-bottom: 100px
+    .count
+        display: block
+        margin-top: 15px
+        line-height: 30px
+    .subtitle
+        line-height: 18px
+        margin-top: 15px
+        margin-bottom: 25px
+    .description-block
+        line-height: 24px
+        margin-bottom: 20px
+
+.bottom-button-wrapper
+    display: none
+    position: fixed
+    bottom: 0
+    width: 100%
+    height: 70px
+    background-color: #ffffff
+    .button-plus
+        .img-icon
+            display: none
+        &.added
+            background-color: #000000
+            .text
+                color: #ffffff
+            .icon
+                display: none
+            .img-icon
+                display: flex
+                width: 18px
+                height: 18px
+                margin-right: 12px
+        .icon
+            width: 22px
+            height: 22px
+            &.plus
+                .line
+                    height: 1px
+                    top: 11px
+
+.thanks-section
+    .h-title
+        letter-spacing: -0.04em
+    .top-content-wrapper
+        .title-top-content
+            margin-top: 25px
+            line-height: 39px
+            margin-bottom: 70px
+        .video-block
+            width: 100%
+            max-width: 300px
+        .icon
+            width: 35px
+    .video-block-wrapper
+        flex-direction: row
+        justify-content: flex-end
+        align-items: flex-start
+        margin-top: -20px
+    .next-steps
+        margin-top: 70px
+        .border-line-black
+            padding: 35px 30px 35px 30px
+        .tile-block-wrapper
+            margin-top: 140px
+        .next-steps-description
+            line-height: 39px
+        .tile-block
+            .count
+                margin-top: 15px
+                line-height: 32px
+            .subtitle
+                margin-top: 15px
+                //margin-bottom: 45px
+                height: 65px
+    .share-receive
+        padding-top: 130px
+        .left-title
+            line-height: 36px
+            max-width: 150px
+        .description
+            line-height: 39px
+            margin-bottom: 100px
+        .content-block
+            flex-direction: column
+            justify-content: start
+            align-items: start
+        .card-img-block
+            margin-top: 60px
+            margin-bottom: 10px
+        .promo-code
+            margin-bottom: 0
+        .img-block
+            margin-top: 180px
+
+
+.product-tile-wrapper
+    .product-tile-item
+        margin-bottom: 30px
+        &:last-of-type
+            margin-bottom: 0
+        .track-box-front-2
+            flex-direction: column
+            justify-content: space-between
+            padding: 30px 30px 40px 30px
+            min-height: 500px
+            .description-short
+                margin-top: 5px
+                width: 100%
+                max-width: 400px
+                margin-bottom: 70px
+            .bottom-section
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                align-items: flex-end
+
+@import 'media'

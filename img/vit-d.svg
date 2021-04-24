@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="317" height="40" viewBox="0 0 317 40">
+    <g fill="none" fill-rule="evenodd">
+        <text font-family="'Space Mono', monospace" font-size="12" font-weight="bold" letter-spacing=".2" transform="translate(.5 -4)">
+            <tspan x=".5" y="13" fill="#FFF">Vitamin D | 22 ng/mL | </tspan> <tspan x="196.644" y="13" fill="#8F705B">LOW</tspan>
+        </text>
+        <path fill="#FFF" d="M106.5 26h104v14h-104z"/>
+        <path fill="#F2EEED" fill-opacity=".25" d="M4.5 26h49.2v14H4.5a4 4 0 0 1-4-4v-6a4 4 0 0 1 4-4z"/>
+        <path fill="#8E705C" d="M312.7 40h-49.2V26h49.2a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4z"/>
+        <path fill="#F2EEED" fill-opacity=".5" d="M53.5 26h53.2v14H53.5z"/>
+        <path fill="#8E705C" fill-opacity=".5" d="M263.7 40h-53.2V26h53.2z"/>
+        <path fill="#DAAE8E" d="M81.485 30.749l-5.5-5h11z"/>
+    </g>
+</svg>

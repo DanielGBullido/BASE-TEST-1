@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="93px" height="93px" viewBox="0 0 93 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>thomas_wellness-score</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Crystal_homepage" transform="translate(-323.000000, -2893.000000)">
+            <g id="Profile" transform="translate(6.000000, 2709.000000)">
+                <g id="info" transform="translate(178.000000, 86.000000)">
+                    <g id="thomas_wellness-score" transform="translate(139.000000, 98.000000)">
+                        <path d="M46.4991,0.0001 C21.9131,0.0001 1.8331,19.0961 0.1631,43.2591 C0.0891,44.3351 0.0001,45.4061 0.0001,46.4991 C0.0001,59.7461 5.5401,71.7001 14.4281,80.1701 L22.0111,72.0381 C15.2971,65.5981 11.1171,56.5381 11.1171,46.4991 C11.1171,45.6671 11.1851,44.8511 11.2411,44.0341 C12.5121,25.6471 27.7911,11.1171 46.4991,11.1171 L46.4991,0.0001 Z" id="Fill-3" fill-opacity="0.2" fill="#FFFFFF"></path>
+                        <g id="Group-7" transform="translate(14.000000, 0.000000)" fill="#FFFFFF">
+                            <path d="M32.4991,0.0004 L32.4991,11.1174 C52.0421,11.1174 67.8821,26.9584 67.8821,46.4994 C67.8821,66.0424 52.0421,81.8824 32.4991,81.8824 C22.9961,81.8824 14.3681,78.1354 8.0111,72.0384 L0.4281,80.1694 C8.7711,88.1194 20.0651,93.0004 32.4991,93.0004 C58.1811,93.0004 78.9991,72.1804 78.9991,46.4994 C78.9991,20.8174 58.1811,0.0004 32.4991,0.0004" id="Fill-5"></path>
+                        </g>
+                        <g id="Group-2" transform="translate(27.000000, 25.000000)" font-family="DMSans-Bold, DM Sans" font-size="30.227" font-weight="bold">
+                            <text id="3" fill="#FFFFFF">
+                                <tspan x="0.8584" y="30.942287">3</tspan>
+                            </text>
+                            <text id=".1" letter-spacing="-0.031" fill="#FFFFFF">
+                                <tspan x="19.508459" y="30.942287">.1</tspan>
+                            </text>
+                            <text id="-"></text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

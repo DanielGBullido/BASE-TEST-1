@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="497px" height="169px" viewBox="0 0 497 169" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>how_ui-elements-2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Crystal_how-it-works" transform="translate(-753.000000, -1471.000000)">
+            <g id="2" transform="translate(149.000000, 1126.000000)">
+                <g id="how_ui-elements-2" transform="translate(604.000000, 345.000000)">
+                    <g id="how_wellness-score" transform="translate(288.500000, 0.000000)" fill="#FFFFFF">
+                        <g id="Group-7" transform="translate(0.500000, 0.000000)">
+                            <path d="M53.694675,0.967875 C51.282675,0.580125 48.80955,0.375375 46.28805,0.375375 L46.28805,11.442 C48.82905,11.442 51.3063,11.713125 53.694675,12.224625 C69.5913,15.626625 81.509925,29.751375 81.509925,46.663125 C81.509925,63.575625 69.5913,77.700375 53.694675,81.102375 C51.3063,81.613875 48.828675,81.885 46.287675,81.885 C42.05505,81.885 37.9983,81.1365 34.238925,79.76775 L30.4533,90.169125 C35.39355,91.967625 40.725675,92.951625 46.287675,92.951625 C48.80955,92.951625 51.282675,92.746875 53.694675,92.359125 C75.737925,88.813125 92.57655,69.705375 92.57655,46.663125 C92.57655,23.619375 75.737925,4.5135 53.694675,0.967875" id="Fill-4"></path>
+                            <path d="M21.910875,72.085275 C15.228,65.675025 11.066625,56.655525 11.066625,46.6629 C11.066625,45.83415 11.13375,45.02265 11.189625,44.2089 L11.189625,44.208525 C12.4545,25.905525 27.664875,11.4414 46.288125,11.4414 L46.288125,11.441775 L46.288125,11.441775 L46.288125,0.374775 L46.288125,0.374775 L46.288125,0.374775 C21.813,0.374775 1.82475,19.3839 0.162375,43.43715 L0.162,43.43715 C0.08925,44.50815 0,45.5739 0,46.6629 C0,59.849775 5.514375,71.748525 14.362875,80.17965 C18.935625,84.536775 24.4005,87.965025 30.453375,90.1689 L34.239,79.767525 C29.59575,78.0774 25.40775,75.439275 21.910875,72.085275" id="Fill-1" fill-opacity="0.2"></path>
+                            <text id="2.2" font-family="DMSans-Bold, DM Sans" font-size="30.227" font-weight="bold">
+                                <tspan x="25" y="57">2.2</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="line" transform="translate(0.000000, 46.000000)">
+                        <path d="M5,23 L278,0.5" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+                        <circle id="Oval" fill="#FFFFFF" cx="5" cy="23" r="5"></circle>
+                    </g>
+                    <g id="thomas_b12-meter" transform="translate(180.000000, 125.000000)">
+                        <text id="Triglycerides-|-345" font-family="SpaceMono-Bold, Space Mono" font-size="12" font-weight="bold" line-spacing="19.5" letter-spacing="0.2">
+                            <tspan x="18.936" y="13" fill="#FFFFFF">Triglycerides | 345 mg/dL | </tspan>
+                            <tspan x="230.168" y="13" fill="#8F705B">VERY HIGH</tspan>
+                        </text>
+                        <g id="how_tri-meter" transform="translate(0.000000, 30.000000)">
+                            <rect id="Rectangle" fill="#FFFFFF" x="106" y="0" width="104" height="14"></rect>
+                            <path d="M4,2.27373675e-13 L53.2,2.27373675e-13 L53.2,14 L4,14 C1.790861,14 1.25159629e-15,12.209139 0,10 L0,4 C-2.705415e-16,1.790861 1.790861,2.27779488e-13 4,2.27373675e-13 Z" id="Rectangle" fill-opacity="0.25" fill="#F2EEED"></path>
+                            <path d="M285,4.53859172e-13 L290.5,5 L296,4.55635529e-13 L312.2,2.30926389e-13 C314.409139,2.32702746e-13 316.2,1.790861 316.2,4 L316.2,10 C316.2,12.209139 314.409139,14 312.2,14 L263,14 L263,2.23820962e-13 L285,2.26998185e-13 Z" id="Combined-Shape" fill="#A48267"></path>
+                            <polygon id="Rectangle" fill-opacity="0.5" fill="#F2EEED" points="53 2.27373675e-13 106.2 2.27373675e-13 106.2 14 53 14"></polygon>
+                            <polygon id="Rectangle" fill-opacity="0.5" fill="#A48267" transform="translate(236.600000, 7.000000) rotate(-180.000000) translate(-236.600000, -7.000000) " points="210 0 263.2 0 263.2 14 210 14"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

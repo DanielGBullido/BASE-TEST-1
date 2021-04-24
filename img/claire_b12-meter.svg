@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="317px" height="15px" viewBox="0 0 317 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>claire_b12-meter</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Crystal_the-science" transform="translate(-838.000000, -3270.000000)">
+            <g id="App-stuff" transform="translate(149.000000, 2696.000000)">
+                <g id="Measurements" transform="translate(689.000000, 432.000000)">
+                    <g id="claire_b12-meter" transform="translate(0.000000, 142.000000)">
+                        <g id="gauge" transform="translate(0.000000, 1.000000)">
+                            <rect id="Rectangle" fill="#FFFFFF" x="106" y="0" width="104" height="14"></rect>
+                            <path d="M4,2.27373675e-13 L53.2,2.27373675e-13 L53.2,14 L4,14 C1.790861,14 2.25678784e-14,12.209139 2.13162821e-14,10 L2.13162821e-14,4 C2.10457406e-14,1.790861 1.790861,2.27779488e-13 4,2.27373675e-13 Z" id="Rectangle" fill-opacity="0.25" fill="#F2EEED"></path>
+                            <path d="M267,2.27373675e-13 L316.2,2.27373675e-13 L316.2,14 L267,14 C264.790861,14 263,12.209139 263,10 L263,4 C263,1.790861 264.790861,2.27779488e-13 267,2.27373675e-13 Z" id="Rectangle" fill="#51554B" transform="translate(289.600000, 7.000000) rotate(-180.000000) translate(-289.600000, -7.000000) "></path>
+                            <polygon id="Rectangle" fill-opacity="0.5" fill="#F2EEED" points="53 2.27373675e-13 106.2 2.27373675e-13 106.2 14 53 14"></polygon>
+                            <polygon id="Rectangle" fill-opacity="0.3" fill="#51554B" transform="translate(236.600000, 7.000000) rotate(-180.000000) translate(-236.600000, -7.000000) " points="210 0 263.2 0 263.2 14 210 14"></polygon>
+                        </g>
+                        <polygon id="Triangle" fill="#A1A994" transform="translate(158.500000, 3.248687) rotate(-180.000000) translate(-158.500000, -3.248687) " points="158.5 0.748686528 164 5.74868653 153 5.74868653"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
