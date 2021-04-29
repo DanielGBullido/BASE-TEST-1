@@ -1,0 +1,23 @@
+{
+  "name": "webpage-challenge",
+  "version": "1.0.0",
+  "description": "This is a partial repository of our webpage - some critical files related to our checkout have been stripped out",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lolapriego/webpage-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lolapriego/webpage-challenge/issues"
+  },
+  "homepage": "https://github.com/lolapriego/webpage-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
