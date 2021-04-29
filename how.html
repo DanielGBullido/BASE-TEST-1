@@ -126,11 +126,11 @@
                                 Identify and improve symptoms with BASE IMPROVE. Check-in on your health throughout the year with BASE MONITOR.
                             </p>
                         </div>
-                    
+
                         <div class="col-12 mt150 mt-100-less-md mt75-less-500">
                             <nav>
                                 <div class="nav nav-tabs plans border-0" id="nav-tab" role="tablist">
-                                    
+
                                     <a class="nav-item nav-link active m-0 w-50 border-line-black" id="nav-base-improve-tab" data-toggle="tab" href="#nav-base-improve" role="tab" aria-controls="nav-base-improve" aria-selected="true">
                                         <div class="row">
                                             <div class="col-12 col-md-6 pb-4 left-content">
@@ -139,9 +139,9 @@
                                             <div class="col-12 col-md-6 text-center">
                                                 <span class="base-16 black-box text-center">MONTHLY</span>
                                             </div>
-                                        </div> 
+                                        </div>
                                     </a>
-                                    
+
                                     <a class="nav-item nav-link m-0 w-50 border-line-black" id="nav-base-monitor-tab" data-toggle="tab" href="#nav-base-monitor" role="tab" aria-controls="nav-base-monitor" aria-selected="false">
                                         <div class="row">
                                             <div class="col-12 col-md-6 pb-4 left-content">
@@ -150,7 +150,7 @@
                                             <div class="col-12 col-md-6 text-center">
                                                 <span class="base-16 black-box text-center">QUARTERLY</span>
                                             </div>
-                                        </div> 
+                                        </div>
                                     </a>
                                 </div>
                             </nav>
@@ -242,7 +242,7 @@
                                         <div class="content w-100 w-md-50 right-second-content border-top-line-black">
                                             <div class="row flex-grow-1 height-100percent">
                                                 <div class="col-12 d-flex flex-column justify-content-between">
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -256,7 +256,7 @@
                 </div>
             </section>
 
-       
+
             <section class="d-md-block d-sm-none d-none pr-5 pos-relative">
                 <div class="blob-bg-tl d-sm-none d-none d-md-block"><img class="side-blob" src="img/upper_top_side_blob.svg"></div>
                 <div class="container">
@@ -297,7 +297,7 @@
                                 <div class="row pb15 pl30"><p class="text-left base-18-body">In-depth diagnostics dashboard looks at hormone, vitamin, and neurotransmitter levels based on your focus track and goals</p></div>
                             </div>
 
-                            <div class="row mb50 pb-5"> 
+                            <div class="row mb50 pb-5">
                                 <a href="#" class="get-access-button vrlps-trigger pr-1 pr-sm-3 white-cursor"><span class="base-28-nav color--white black-box-filled white-cursor"><span class="pr10 get-access-button-text">GetAccess </span><img class="pl-1" src="img/base_arrow_white.svg"></span></a>
 
                             </div>
@@ -326,22 +326,22 @@
                                 <li class="pb-4"><span class="base-18-header color-black">Advanced personalized testing<br></span>
                                     <span class="color-black base-18-body">In-depth diagnostics dashboard looks at hormone, vitamin, and neurotransmitter levels based on your focus track and goals.</span>
                                 </li>
-                                
+
                                  <li class="pb-4"><span class="base-18-header color-black">Convenience and Ease<br></span>
                                     <span class="color-black base-18-body">Change, delay, modify your focus track at any point directly from the app with no penalties.</span>
                                 </li>
-                                
+
                             </ul>
                         </div>
 
-                        <div class="row mb50 pt96" id="timeline"> 
+                        <div class="row mb50 pt96" id="timeline">
                             <a href="#" class="get-access-button vrlps-trigger pr-1 pr-sm-3"><span class="base-28-nav color--white black-box-filled"><span class="pr10 get-access-button-text">GetAccess </span><img class="pl-1" src="img/base_arrow_white.svg"></span></a>
 
                         </div>
                     </div>
                 </div>
             </section>
-   
+
             <section class="text-center">
                 <div class="container">
 
@@ -417,7 +417,7 @@
                     </div>
                 </div>
             </section>
-           
+
 
             <section class="text-center bg-black accordion-section clearfix" aria-label="FAQ Accordion">
                 <div class="container mt101">
@@ -493,7 +493,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="panel panel-default">
                                     <div class="panel-heading p-2" role="tab" id="heading3">
                                         <span class="panel-title text-left base-30 color--white">
@@ -509,7 +509,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                  <div class="panel panel-default">
                                     <div class="panel-heading p-2" role="tab" id="heading5">
                                         <span class="panel-title base-30 color--white">
@@ -599,7 +599,7 @@
                         <div class="col-sm-12">
                             <div class="row color--white">
                                 <img class="image--xxs pl-xs-1 pl-4 pl-sm-0" src="img/logo_white.svg">
-                                <span class="type--fine-print color--white">© <span class="update-year color--white">2020</span> Base</span> 
+                                <span class="type--fine-print color--white">© <span class="update-year color--white">2020</span> Base</span>
                             </div>
                         </div>
                     </div>
@@ -619,7 +619,17 @@
         <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=f8cc266f-33b6-4137-bbbf-d1df542c0d4d"> </script>
         <!-- End of get-base Zendesk Widget script --><!-- End of get-base Zendesk Widget script -->
         <script type="text/javascript" src="js/slick.min.js"></script>
-       
+        <script>
+          $(document).ready(function(){
+            $('a[data-toggle="tab"]').on('show.bs.tab', function(e) {
+              localStorage.setItem('activeTab', $(e.target).attr('href'));
+            });
+            var activeTab = localStorage.getItem('activeTab');
+            if(activeTab){
+              $('#nav-tab a[href="' + activeTab + '"]').tab('show');
+            }
+          });
+        </script>
 
     </body>
 
