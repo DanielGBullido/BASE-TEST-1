@@ -1309,6 +1309,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
 <script src="js/parallax-index.js?v=2"></script>
 <script src="js/parallax-index-mob.js?v=2"></script>
+<script src="js/custom.js"></script>
 
 <script>
 
@@ -1394,23 +1395,6 @@
 <script src="js/nav-cart.js?v=11">
 </script>
 
-<script>
-  $(document).ready(function () {
-    var modalShow = localStorage.getItem('modalShow');
-    if (!modalShow) {
-      $("#modalSubscription").modal('show');
-      localStorage.setItem('modalShow', true);
-    }
-
-    $('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
-      localStorage.setItem('activeTab', $(e.target).attr('href'));
-    });
-    var activeTab = localStorage.getItem('activeTab');
-    if (activeTab) {
-      $('#nav-tab a[href="' + activeTab + '"]').tab('show');
-    }
-  });
-</script>
 
 </body>
 
